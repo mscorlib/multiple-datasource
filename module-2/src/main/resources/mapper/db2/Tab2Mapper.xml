@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.example.module2.mapper.Tab2Mapper">
+    <resultMap id="Tab2Result" type="Tab2">
+        <id property="id" column="id"/>
+        <result property="context" column="context"/>
+    </resultMap>
+
+    <select id="getAll" resultMap="Tab2Result">
+        select id,context from tb2
+    </select>
+</mapper>

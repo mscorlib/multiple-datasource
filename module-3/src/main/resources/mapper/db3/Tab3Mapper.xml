@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.example.module3.mapper.Tab3Mapper">
+    <resultMap id="Tab3Result" type="Tab3">
+        <id property="id" column="id"/>
+        <result property="txt" column="txt"/>
+    </resultMap>
+
+    <select id="getAll" resultMap="Tab3Result">
+        select id,txt from tb3
+    </select>
+</mapper>
