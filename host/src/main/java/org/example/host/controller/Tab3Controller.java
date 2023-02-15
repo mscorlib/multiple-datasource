@@ -1,4 +1,4 @@
-package org.example.module3.controller;
+package org.example.host.controller;
 
 import org.example.module3.domain.Tab3;
 import org.example.module3.mapper.Tab3Mapper;

@@ -1,4 +1,4 @@
-package org.example.module1.controller;
+package org.example.host.controller;
 
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
