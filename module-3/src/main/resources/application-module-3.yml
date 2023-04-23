@@ -1,0 +1,5 @@
+app:
+  module-3: app-3
+spring:
+  config:
+    import: classpath:application-module-3-druid.yml
